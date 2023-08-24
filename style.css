@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Caveat&family=Hind:wght@500&family=Kanit:wght@300&family=Lato&family=Noto+Sans&family=Nunito&family=Open+Sans:wght@500&family=Oswald:wght@300&family=Poppins:wght@300&family=Qwitcher+Grypen:wght@700&family=Roboto&family=Roboto+Condensed&family=Teko&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar-track
+{
+    
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        background-color: #F5F5F5;
+    
+}
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb
+{
+	background-color: #F90;	
+	background-image: -webkit-linear-gradient(45deg,
+	                                          rgba(255, 255, 255, .2) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(255, 255, 255, .2) 50%,
+											  rgba(255, 255, 255, .2) 75%,
+											  transparent 75%,
+											  transparent)
+}
+
+
+nav ul li{
+    display: inline;
+
+}
+body{
+    overflow: auto;
+}
+.moon2img1{
+    width: 30%;
+    margin-top: 4%;
+    border-radius: 10px;
+    margin-right: 15px;
+    float: right;
+}
+
+h1 {
+    overflow: hidden;   
+    border-right: .1em solid rgb(0, 0, 0); 
+    color:black;
+    text-align: center;
+    white-space: nowrap;
+    margin: 0 auto;
+    font-family: Kanit;
+    font-size: 60px;
+    letter-spacing: .15em;
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+
+nav{
+    background-color: #57a8cc;
+    width: 100%;
+    height: 56px;
+
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    position: relative;
+    font-size: 19.23px;
+    float:left;
+    margin-top: 4px;
+    cursor: pointer;
+    font-family: Hind;
+    margin-left: 14px;
+    margin-right: 12px;
+}
+
+nav ul li a:after {
+    content: "";
+    position: absolute;
+    background-color: navy;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.25s;
+}
+.intro, .goal{
+    font-family: Roboto Condensed;
+    font-size: 17px;
+    float:left;
+    word-spacing: 3px;
+    width: 60%;
+    margin-left: 5px;
+    margin-top: 7%
+}
+.his1{
+    border-radius: 10px;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 5%;
+    width: 30%;
+    height: 300px;
+}
+.about{
+    float: left;
+    width: 40%;
+    word-spacing: 5px;
+    font-family: Poppins;
+    font-weight: 900;
+    margin-top: 4%; 
+}
+.rover{
+    margin-top: 4%;
+    float:right;
+    width: 30%;
+
+    border-radius: 10px;
+
+}
+.passed{
+    right: 0;
+    position: absolute;
+    bottom:0;
+    font-size: 40px;
+    margin-right: 13px;  
+    font-family: Qwitcher Grypen;
+    font-weight: bolder;
+}
+
+.img1{
+    border-radius: 10px;
+    width: 400px;
+    float: right;
+    margin-right: 10px;
+
+    height: 400px;
+}
+.history{
+    font-family: Roboto Condensed;  
+    float: right;
+    word-spacing: 5px;
+    width: 60%;
+    margin-right: 5px;
+    margin-top: 2%;
+}
+.goal_img{ 
+    margin-top: 3%;
+    width: 30%;
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 5%;
+    border-radius: 15px;
+}
+
+
+h4{
+    display: block;
+    font-size: 30px;
+    margin-top: 25%;
+    font-family: Open Sans;
+    text-align: right;
+    margin-right: 14px;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+h2{
+    margin-top: 6%;
+    text-align: center;
+    font-size:xx-large;
+
+    font-family:Kanit;
+
+}
+.description{
+    text-align: center;
+    font-size:16px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    color:rgb(65, 65, 66)
+
+}
+h1 span{
+    color: navy;
+}
+.content{
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 3%;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1300px;
+    margin-bottom: 100px;
+}
+h3{
+    font-size: 50px;
+    text-align: center;
+    font-family: Caveat;
+}
+h3 span{
+    color:navy
+}
+.content div{
+    display:inline-block;       
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 30%;
+    padding:1.1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+.content div p{
+    margin-top: 3%;
+    font-family: Noto Sans;
+    font-size: 13px;
+
+}
+.content div:hover{
+    transform: scale(1.111);
+    cursor: pointer;
+     
+
+}
+.content div img{
+    width:100%;
+    height: auto;
+    display: block;
+    margin-right:16px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.chandrayaan1, .chandrayaan2{
+    margin-right: 5%;
+
+}
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 60% }
+}
+@keyframes typing2 {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    100% { border-color: black }
+}
+
+@media (max-width: 720px) {
+    h1{
+        font-size: large;
+        animation: 
+        typing2 3.5s steps(30, end),
+        blink-caret .75s step-end infinite;
+    }
+    .content{
+        display: block;
+    }
+    .content div{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15%;
+
+    }
+    nav{
+        width: 100%;
+
+    }
+    nav ul li a{
+        font-size: small
+    }
+
+
+    
+    h1{
+        text-align: center;
+        display: block;
+        margin: auto;
+
+    }
+    .description{
+        font-size: 10px; 
+        display: block;  
+        margin: auto; 
+    }
+
+
+
+    
+}
+
+
+
